@@ -24,6 +24,6 @@ export default async function handler(req, res) {
       return res.sendFile(fullPath);
     }
   } catch {
-    return res.status(404).send("Not found");
+    return res.status(404).send("Not found.");
   }
 }
