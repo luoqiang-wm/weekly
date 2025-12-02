@@ -1,0 +1,24 @@
+{
+  "name": "weekly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "middleware.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guyue88/weekly.git"
+  },
+  "keywords": [],
+  "author": "luoqiang",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/guyue88/weekly/issues"
+  },
+  "homepage": "https://github.com/guyue88/weekly#readme",
+  "dependencies": {
+    "@vercel/edge": "^1.2.2"
+  }
+}

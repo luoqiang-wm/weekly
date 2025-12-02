@@ -54,6 +54,6 @@ export function middleware(req) {
 // matcher：保护所有页面（包括 `/`），但排除 Next.js 内部路径
 export const config = {
   matcher: [
-    '/((?!api|_next/static|_next/image|favicon\\.ico).*)'
+    '/:path*'
   ]
 };
